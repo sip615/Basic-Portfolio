@@ -146,4 +146,64 @@ a:visited{
     height: 250px;
     width: 250px;
 }
-
+@media only screen and (max-width: 980px) {
+    .middleSection{
+        width: 960px;
+        background-color: whitesmoke;
+        margin: 15px auto 15px auto;
+        overflow: auto;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .middleSection{
+        width: 760px;
+        background-color: whitesmoke;
+        margin: 15px auto 15px auto;
+        overflow: auto;
+    }
+    .middleSection p{
+        width: 500px;
+        float: left;
+    }
+    .middleSection .text{
+        width: 500px;
+    }
+    img{
+        padding-left: 25px;
+    }
+    .header .content{
+        margin: auto;
+        width: 760px;
+        margin-bottom: 0px;
+    }
+    .middleSection .label{
+        width: 220px;
+        margin-left: 25px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .middleSection{
+        width: 620px;
+        background-color: whitesmoke;
+        margin: 15px 10px;
+        overflow: auto;
+    }
+    .middleSection p{
+        width: 350px;
+        float: left;
+    }
+    .middleSection .text{
+        width: 350px;
+    }
+    img{
+        padding-left: 25px;
+    }
+    .header .content{
+        margin: auto;
+        width: 630px;
+        margin-bottom: 0px;
+    }
+    .footer p{
+        margin: auto;
+    }
+  }
